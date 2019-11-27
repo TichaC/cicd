@@ -12,7 +12,7 @@ jobs:
     # environment variables for Heroku
     env:
       HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-      HEROKU_APP: ticha-agoda-cicd
+      HEROKU_APP: ticha-agoda
     steps:
       - uses: actions/checkout@v1
 
